@@ -2,12 +2,12 @@
 
 **Lab. Report \#2 – Requirements-Based Test Generation**
 
-| Group \#:      |     |
+| Group \#:      |  9  |
 | -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Student Names: | Brian Chen  |
+|                | Zheng Chen  |
+|                | Rui Guan    |
+|                | Weitao Wu   |
 
 # 1 Introduction
 

@@ -19,15 +19,30 @@ Text…
 
 # 3 Test cases developed
 
-Text…
+Methods to be tested in org.jfree.data.Range: 
+contains(double value)
+toString()
+getCentralValue()   
+
+Methods to be tested in org.jfree.data.DataUtilities: 
+calculateRowTotal()
+calculateColumnTotal(Values2D data, int column)
+
 
 // write down the name of the test methods and classes. Organize the based on
 the source code method // they test. identify which tests cover which partitions
 you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
+|             |  Methods tested in org.jfree.data.Range   |   Methods tested in org.jfree.data.DataUtilities   |
+| Brian Chen  |                                           |                                                    |
+| Zheng Chen  | getCentralValue()                         | calculateColumnTotal(Values2D data, int column)    |
+| Rui Guan    |                                           |                                                    |
+| Weitao Wu   |                                           |                                                    |
 
-Text…
+(If necessary)
+| As a Group  |                                           |                                                    | 
+
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 

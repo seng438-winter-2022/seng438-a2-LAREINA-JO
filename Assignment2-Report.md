@@ -34,14 +34,17 @@ the source code method // they test. identify which tests cover which partitions
 you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
-|             |  Methods tested in org.jfree.data.Range   |   Methods tested in org.jfree.data.DataUtilities   |
-| Brian Chen  |                                           |                                                    |
-| Zheng Chen  | getCentralValue()                         | calculateColumnTotal(Values2D data, int column)    |
-| Rui Guan    |                                           |                                                    |
-| Weitao Wu   |                                           |                                                    |
+
+Brian Chen:
+
+Zheng Chen: getCentralValue(),calculateColumnTotal(Values2D data, int column)
+
+Rui Guan:
+
+Weitao Wu:
 
 (If necessary)
-| As a Group  |                                           |                                                    | 
+As a Group:
 
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned

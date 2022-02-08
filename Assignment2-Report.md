@@ -35,7 +35,7 @@ getLength()
 constrain()
 
 Methods to be tested in org.jfree.data.DataUtilities: 
-calculateRowTotal()
+calculateRowTotal(Values2D data, int row)
 calculateColumnTotal(Values2D data, int column)
 
 
@@ -51,7 +51,7 @@ Zheng Chen: getCentralValue(), calculateColumnTotal(Values2D data, int column)
 
 Rui Guan:
 
-Weitao Wu: contains(double value), toString(), calculateRowTotal()
+Weitao Wu: contains(double value), toString(), calculateRowTotal(Values2D data, int row)
 
 (If necessary)
 As a Group:

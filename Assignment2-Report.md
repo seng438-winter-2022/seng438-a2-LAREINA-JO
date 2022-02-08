@@ -43,7 +43,7 @@ Zheng Chen: getCentralValue(), calculateColumnTotal(Values2D data, int column)
 
 Rui Guan:
 
-Weitao Wu:
+Weitao Wu: contains(double value), toString(), calculateRowTotal()
 
 (If necessary)
 As a Group:

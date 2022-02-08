@@ -22,10 +22,12 @@ Text…
 Methods to be tested in org.jfree.data.Range: 
 contains(double value):
 balck box testing, equivalence class testing, robustness testing, boundry testing
+
 First applying the black box testing and equivalence class testing to test if the method can result the correct value within the range, then apply the boundry test to test if the method can result the correct boundry values.
 
 toString():
 black box testing and equivalence testing
+
 Since the toString() method only result a string which represents the correct range, apply the black box and equivalence testing can test if the method can result the correct string.
 
 getCentralValue()   

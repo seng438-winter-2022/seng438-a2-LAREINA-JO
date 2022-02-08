@@ -30,7 +30,7 @@ black box testing and equivalence testing
 
 Since the toString() method only result a string which represents the correct range, apply the black box and equivalence testing can test if the method can result the correct string.
 
-getCentralValue()   
+getUpperBound()  
 getLength()
 constrain()
 
@@ -47,7 +47,7 @@ you have explained in the test strategy section //above
 
 Brian Chen: getLength(), constrain()
 
-Zheng Chen: getCentralValue(), calculateColumnTotal(Values2D data, int column)
+Zheng Chen: getUpperBound(), calculateColumnTotal(Values2D data, int column)
 
 Rui Guan:
 

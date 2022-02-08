@@ -23,10 +23,12 @@ Methods to be tested in org.jfree.data.Range:
 contains(double value)
 toString()
 getCentralValue()   
+getLength()
 
 Methods to be tested in org.jfree.data.DataUtilities: 
 calculateRowTotal()
 calculateColumnTotal(Values2D data, int column)
+createNumberArray(double[] data)
 
 
 // write down the name of the test methods and classes. Organize the based on
@@ -35,9 +37,9 @@ you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
-Brian Chen:
+Brian Chen: getLength(), createNumberArray(double[] data)
 
-Zheng Chen: getCentralValue(),calculateColumnTotal(Values2D data, int column)
+Zheng Chen: getCentralValue(), calculateColumnTotal(Values2D data, int column)
 
 Rui Guan:
 

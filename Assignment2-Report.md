@@ -49,7 +49,7 @@ Brian Chen: getLowerBound(), getLength()
 
 Zheng Chen: getUpperBound(), calculateColumnTotal(Values2D data, int column)
 
-Rui Guan: createNumberArray2D(double[][]), getCumulativePercentages(KeyedValues)
+Rui Guan: createNumberArray(double[]), getCumulativePercentages(KeyedValues)
 
 Weitao Wu: contains(double value), toString(), calculateRowTotal(Values2D data, int row)
 

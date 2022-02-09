@@ -31,8 +31,8 @@ black box testing and equivalence testing
 Since the toString() method only result a string which represents the correct range, apply the black box and equivalence testing can test if the method can result the correct string.
 
 getUpperBound()  
-getLowerBound()
-getLength()
+getLowerBound(): Results showed that the getLowerBound() correctly returned the lower bound value of the range
+getLength(): Results shouwed that the getLength() meethod correctly returned the length of the range
 
 Methods to be tested in org.jfree.data.DataUtilities: 
 calculateRowTotal(Values2D data, int row)

@@ -45,7 +45,7 @@ you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
-Brian Chen: getLength(), constrain()
+Brian Chen: getLength(), constrain(double value)
 
 Zheng Chen: getUpperBound(), calculateColumnTotal(Values2D data, int column)
 

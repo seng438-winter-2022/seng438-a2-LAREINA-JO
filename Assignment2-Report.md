@@ -15,28 +15,42 @@ Text…
 
 # 2 Detailed description of unit test strategy
 
+
+
 // including the input partitions you have designed
 
 # 3 Test cases developed
 
 Methods to be tested in org.jfree.data.Range: 
-contains(double value):
-balck box testing, equivalence class testing, robustness testing, boundry testing
 
+contains(double value):
+Black box testing, equivalence class testing, robustness testing, boundry testing
 First applying the black box testing and equivalence class testing to test if the method can result the correct value within the range, then apply the boundry test to test if the method can result the correct boundry values.
 
 toString():
 black box testing and equivalence testing
-
 Since the toString() method only result a string which represents the correct range, apply the black box and equivalence testing can test if the method can result the correct string.
 
-getUpperBound()  
+getUpperBound():
+
 getLowerBound(): Results showed that the getLowerBound() correctly returned the lower bound value of the range
+
 getLength(): Results shouwed that the getLength() meethod correctly returned the length of the range
 
+
+
+
 Methods to be tested in org.jfree.data.DataUtilities: 
-calculateRowTotal(Values2D data, int row)
-calculateColumnTotal(Values2D data, int column)
+
+calculateRowTotal(Values2D data, int row):
+
+calculateColumnTotal(Values2D data, int column):
+
+calculateColumnTotal(Values2D data, int column，int[] validRows):
+
+createNumberArray(double[]):
+
+getCumulativePercentages(KeyedValues):
 
 
 // write down the name of the test methods and classes. Organize the based on
@@ -47,7 +61,7 @@ you have explained in the test strategy section //above
 
 Brian Chen: getLowerBound(), getLength()
 
-Zheng Chen: getUpperBound(), calculateColumnTotal(Values2D data, int column)
+Zheng Chen: getUpperBound(), calculateColumnTotal(Values2D data, int column)， calculateColumnTotal(Values2D data, int column，int[] validRows)
 
 Rui Guan: createNumberArray(double[]), getCumulativePercentages(KeyedValues)
 

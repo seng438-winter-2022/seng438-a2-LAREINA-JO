@@ -15,7 +15,7 @@ This assignment aims to test our capability to apply the methods to do the black
 
 # 2 Detailed description of unit test strategy
 
-
+In this assignment, black box testing is the basic technique and the main focus. Black box testing is to test the performance of the application without viewing the actual code. Then, the equivalence class testing helps us divide the inputs into two portions: expected inputs and unexpected inputs. We can test these two portions to find the correctness of the method we test. Next, applying the boundry value test on some cases can help check if any mistakes happen at or near the boundry values. At last, applying the robustness test to check the out-of-bound values will help find out the errors. 
 
 // including the input partitions you have designed
 
@@ -23,11 +23,11 @@ This assignment aims to test our capability to apply the methods to do the black
 
 Methods to be tested in org.jfree.data.Range: 
 
-contains(double value):
+contains(double value): No errors. 
 Black box testing, equivalence class testing, robustness testing, boundry testing
-First applying the black box testing and equivalence class testing to test if the method can result the correct value within the range, then apply the boundry test to test if the method can result the correct boundry values.
+First applying the black box testing and equivalence class testing to test if the method can result the correct value within the range, then apply the boundry test to test if the method can result the correct boundry values. 
 
-toString():
+toString(): No errors. a
 black box testing and equivalence testing
 Since the toString() method only result a string which represents the correct range, apply the black box and equivalence testing can test if the method can result the correct string.
 
@@ -42,7 +42,7 @@ getLength(): Results shouwed that the getLength() meethod correctly returned the
 
 Methods to be tested in org.jfree.data.DataUtilities: 
 
-calculateRowTotal(Values2D data, int row):
+calculateRowTotal(Values2D data, int row): No errors.
 black box testing, equivalence testing 
 First applying the black box and equivalence testing to check if the result for two row is correct, then check if the result of two positive/negative values is correct. At last, check if the result for more rows is correct.
 

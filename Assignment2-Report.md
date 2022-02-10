@@ -11,7 +11,7 @@
 
 # 1 Introduction
 
-Text…
+This assignment aims to test our capability to apply the methods to do the black box testing. We are required to write the code to test two classes: Range and DataUltilites. Plus, we are also asked to apply some other testing methods, such as, equivalence test, boundry test, robustness test, etc. JMock techniques are needed to be included in the tests for DataUtilites class.
 
 # 2 Detailed description of unit test strategy
 
@@ -43,6 +43,8 @@ getLength(): Results shouwed that the getLength() meethod correctly returned the
 Methods to be tested in org.jfree.data.DataUtilities: 
 
 calculateRowTotal(Values2D data, int row):
+black box testing, equivalence testing 
+First applying the black box and equivalence testing to check if the result for two row is correct, then check if the result of two positive/negative values is correct. At last, check if the result for more rows is correct.
 
 calculateColumnTotal(Values2D data, int column):
 

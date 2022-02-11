@@ -9,7 +9,7 @@ import org.jmock.Mockery;
 import org.junit.*;
 
 
-public class DataUtilitiesCalculateColumnTotalwithArrayTest {
+public class CalculateColumnTotalwithArrayTest {
 	
     private Mockery mockingContext1 = new Mockery();
     private Values2D values1 = mockingContext1.mock(Values2D.class);

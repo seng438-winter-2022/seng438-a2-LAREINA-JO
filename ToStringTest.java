@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import org.jfree.data.Range; 
 import org.junit.*; 
- public class RangeToStringTest { 
+ public class ToStringTest { 
 private Range exampleRange;
 private Range exampleRange1;
 private Range exampleRange2;

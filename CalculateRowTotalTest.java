@@ -10,7 +10,7 @@ import org.junit.Test;
 import org.jfree.data.DataUtilities;
 import org.jfree.data.Values2D;
 
- public class DataUtilitiesCalculateRowTotalTest { 
+ public class CalculateRowTotalTest { 
 	 @Test
 	 public void calculateRowTotalForZeroValues() {
 	     // setup

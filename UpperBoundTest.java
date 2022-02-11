@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import org.jfree.data.Range; 
 import org.junit.*;
 
-public class RangeUpperBoundTest {
+public class UpperBoundTest {
 	
     private Range exampleRange1;
     private Range exampleRange2;

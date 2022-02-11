@@ -31,11 +31,17 @@ toString(): No failure found.
 Black box testing: equivalence testing
 Since the toString() method only result a string which represents the correct range, apply the black box and equivalence testing can test if the method can result the correct string.
 
-getUpperBound():
+getUpperBound(): No failure found
+Black box testing, equivalence class testing, boundry testing
+The test cases of postive, zero, and negative upperbound value are tested. Then the the same upper bound value with lower bound is tested.
 
-getLowerBound(): Results showed that the getLowerBound() correctly returned the lower bound value of the range
+getLowerBound(): No failure found
+Black box testing, equivalence class testing, boundry testing
+Results showed that the getLowerBound() correctly returned the lower bound value of the range
 
-getLength(): Results shouwed that the getLength() meethod correctly returned the length of the range
+getLength(): Failure found
+Black box testing, equivalence class testing, boundry testing
+
 
 
 

@@ -35,9 +35,9 @@ getUpperBound(): No failure found
 Black box testing, equivalence class testing, boundry testing
 The test cases of postive, zero, and negative upperbound value are tested. Then the the same upper bound value with lower bound is tested.
 
-getLowerBound(): No failure found
+getLowerBound(): Failure found
 Black box testing, equivalence class testing, boundry testing
-Results showed that the getLowerBound() correctly returned the lower bound value of the range
+Results showed that the getLowerBound() incorrectly returned the lower bound value of the range in the test lengthShouldBeZero()
 
 getLength(): Failure found
 Black box testing, equivalence class testing, boundry testing

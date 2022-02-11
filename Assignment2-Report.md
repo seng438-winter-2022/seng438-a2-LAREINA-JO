@@ -17,7 +17,11 @@ This assignment aims to test our capability to apply the methods to do the black
 
 In this assignment, black box testing is the basic technique and the main focus. Black box testing is to test the performance of the application without viewing the actual code. Then, the equivalence class testing helps us divide the inputs into two portions: expected inputs and unexpected inputs. We can test these two portions to find the correctness of the method we test. Next, applying the boundry value test on some cases can help check if any mistakes happen at or near the boundry values. At last, applying the robustness test to check the out-of-bound values will help find out the errors. 
 
-// including the input partitions you have designed
+For getter methods:
+We divide equivalence class by Range object's upper and lower bound. Zero value will be considered as well. For example, {-5,5}, {-5,0}, and {-5,-5} belong to three equivalence class correspondingly.
+
+For methods in DataUtilities class:
+We shall read the documentary of those methods and specify their legal and illegal arguments. We shall design cases with the combination of legal and illegal arguments. For example, row and column numbers can only be zero or positive numbers.
 
 # 3 Test cases developed
 
@@ -35,13 +39,13 @@ getUpperBound(): No failure found
 Black box testing, equivalence class testing, boundry testing
 The test cases of postive, zero, and negative upperbound value are tested. Then the the same upper bound value with lower bound is tested.
 
-getLowerBound(): Failure found
-Black box testing, equivalence class testing, boundry testing
-Results showed that the getLowerBound() incorrectly returned the lower bound value of the range in the test lengthShouldBeZero()
+getLowerBound(): No Failure found
+Black box testing, equivalence class testing
+The test cases of postive, zero, and negative lowerbound value are tested.
 
 getLength(): Failure found
 Black box testing, equivalence class testing, boundry testing
-
+The test cases of postive, zero, and negative upperbound value are tested. Results showed that lengthShouldBeZero() has failure when the both inputs are the same and negative.
 
 
 
